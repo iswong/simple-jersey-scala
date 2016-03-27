@@ -4,7 +4,7 @@ organization := "momo"
 
 version := "0.0.1-SNAPSHOT"
 
-scalaVersion := "2.11.5"
+scalaVersion := "2.11.8"
 
 libraryDependencies ++= Seq(
   "org.glassfish.jersey.core" % "jersey-server" % "2.22.2",
@@ -15,7 +15,7 @@ libraryDependencies ++= Seq(
   "org.apache.logging.log4j" % "log4j-jul" % "2.5",
   "org.glassfish.jersey.test-framework" % "jersey-test-framework-core" % "2.22.2" % "test",
   "org.glassfish.jersey.test-framework.providers" % "jersey-test-framework-provider-inmemory" % "2.22.2" % "test",
-  "org.scalatest" %% "scalatest" % "2.2.1" % "test",
+  "org.scalatest" % "scalatest_2.11" % "2.2.6" % "test",
   "com.novocode" % "junit-interface" % "0.11" % "test"
 )
 
