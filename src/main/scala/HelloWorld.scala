@@ -89,3 +89,4 @@ object HelloWorld extends App {
   sys.addShutdownHook(server.shutdownNow())
   Thread.sleep(Integer.MAX_VALUE)
 }
+class HelloWorld

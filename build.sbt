@@ -15,7 +15,6 @@ libraryDependencies ++= Seq(
   "org.apache.logging.log4j" % "log4j-jul" % "2.5",
   "org.glassfish.jersey.test-framework" % "jersey-test-framework-core" % "2.22.2" % "test",
   "org.glassfish.jersey.test-framework.providers" % "jersey-test-framework-provider-inmemory" % "2.22.2" % "test",
-  "org.scalatest" % "scalatest_2.11" % "2.2.6" % "test",
-  "com.novocode" % "junit-interface" % "0.11" % "test"
+  "org.scalatest" % "scalatest_2.11" % "2.2.6" % "test"
 )
 
