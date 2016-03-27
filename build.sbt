@@ -6,6 +6,8 @@ version := "0.0.1-SNAPSHOT"
 
 scalaVersion := "2.11.8"
 
+javacOptions ++= Seq("-source", "1.8", "-target", "1.8")
+
 libraryDependencies ++= Seq(
   "org.glassfish.jersey.core" % "jersey-server" % "2.22.2",
   "org.glassfish.jersey.containers" % "jersey-container-grizzly2-http" % "2.22.2",
