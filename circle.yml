@@ -1,0 +1,9 @@
+machine:
+  java:
+    version: oraclejdk8
+
+test:
+  post:
+    - mkdir -p $CIRCLE_TEST_REPORTS/junit/
+    - rm $CIRCLE_TEST_REPORTS/junit/*
+    - find target/test-reports -type f -exec cp {} $CIRCLE_TEST_REPORTS/junit \;
