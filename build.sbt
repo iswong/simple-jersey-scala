@@ -16,7 +16,6 @@ libraryDependencies ++= Seq(
   "org.glassfish.jersey.test-framework" % "jersey-test-framework-core" % "2.22.2" % "test",
   "org.glassfish.jersey.test-framework.providers" % "jersey-test-framework-provider-inmemory" % "2.22.2" % "test",
   "org.scalatest" %% "scalatest" % "2.2.1" % "test",
-  "org.scalacheck" %% "scalacheck" % "1.12.1" % "test",
   "com.novocode" % "junit-interface" % "0.11" % "test"
 )
 
